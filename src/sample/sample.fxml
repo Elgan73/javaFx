@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="350.0" style="-fx-background-color: #63ADD0;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+    <Button layoutX="305.0" layoutY="600.0" mnemonicParsing="false" onAction="#send" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #0E51A7;" text="&gt;" textFill="WHITE">
+        <font>
+            <Font size="19.0" />
+        </font>
+    </Button>
+
+    <TextField fx:id="inputField" layoutX="47.0" layoutY="600.0" prefHeight="40.0" prefWidth="253.0" />
+
+    <Button layoutX="4.0" layoutY="600.0" mnemonicParsing="false" onAction="#selectUser" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: fff;" textFill="WHITE">
+        <font>
+            <Font size="12.0" />
+        </font>
+    </Button>
+
+    <CheckBox layoutX="47.0" layoutY="573.0" mnemonicParsing="false" onAction="#privateUser" prefHeight="25.0" prefWidth="66.0" text="Private" />
+   <TextArea fx:id="chatArea" editable="false" focusTraversable="false" layoutX="4.0" layoutY="4.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="567.0" prefWidth="343.0" />
+
+
+</AnchorPane>
