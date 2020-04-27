@@ -18,9 +18,11 @@ public class Controller {
 
 
         }  else {
+
             chatArea.appendText(str);
             inputField.clear();
             inputField.requestFocus();
+
         }
 
 
